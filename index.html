@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Formular für Notizen -->
-    <form id="myForm">
-      <p>
-        <label for="noteTitle">Was?</label>
-        <input type="text" name="title" id="noteTitle" value="" />
-      </p>
-      <p>
-        <label for="notePerson">Wer?</label>
-        <input type="text" name="person" id="notePerson" value="" />
-      </p>
-      <p>
-        <label for="noteMessage">Beschreibung:</label><br />
-        <textarea
-          name="message"
-          id="noteMessage"
-          cols="30"
-          rows="10"
-        ></textarea>
-      </p>
-      <p>
-        <button id="addNote">Notiz erstellen</button>
-        <button id="updateNote">Notiz aktualisieren</button>
-        <button id="deleteNote">Notiz löschen</button>
-      </p>
-    </form>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Formular für Notizen -->
+		<form id="myForm">
+			<p>
+				<label for="noteTitle">Was?</label>
+				<input type="text" name="title" id="noteTitle" value="" />
+			</p>
+			<p>
+				<label for="notePerson">Wer?</label>
+				<input type="text" name="person" id="notePerson" value="" />
+			</p>
+			<p>
+				<label for="noteMessage">Beschreibung:</label><br />
+				<textarea
+					name="message"
+					id="noteMessage"
+					cols="30"
+					rows="10"
+				></textarea>
+			</p>
+			<p>
+				<button id="addNote">Notiz erstellen</button>
+				<button id="updateNote">Notiz aktualisieren</button>
+				<button id="deleteNote">Notiz löschen</button>
+			</p>
+		</form>
 
-    <!-- Anzeige aller Notizen -->
-    <div id="allNotes"></div>
+		<!-- Anzeige aller Notizen -->
+		<div id="allNotes"></div>
 
-    <!-- Einbindung Scripte -->
-    <script src="app.js"></script>
-  </body>
+		<!-- Einbindung Scripte -->
+		<script src="app.js"></script>
+	</body>
 </html>
